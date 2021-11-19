@@ -1,0 +1,14 @@
+using System;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите число:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (500<=a && a<=1000) Console.WriteLine(a - a / 100 * 3);
+            else if (1000<=a) Console.WriteLine(a - a / 100 * 5);
+            else Console.WriteLine(a);
+
+        }
+    }
